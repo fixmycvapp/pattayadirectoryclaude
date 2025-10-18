@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "_id": "67890abc12345def67890",
+    "title": "Pattaya Beach Music Festival 2025",
+    "description": "Join us for the biggest beach music festival in Pattaya! Featuring international DJs, live bands, and beachfront performances.\n\nExperience world-class entertainment with stunning ocean views. This year's lineup includes Grammy-winning artists, local Thai performers, and electronic music pioneers.\n\nEvent Highlights:\n• 3 Main Stages with non-stop music\n• 50+ International & Local Artists\n• Beachfront Food & Beverage Pavilions\n• VIP Lounge with Premium Services\n• Fire Shows & Light Displays\n• After-party until 4 AM\n\nDon't miss the event of the year!",
+    "date": "2025-12-15T18:00:00.000Z",
+    "time": "18:00",
+    "location": "Beach Road Central Stage",
+    "type": "concert",
+    "price": 1500,
+    "priceCategory": "moderate",
+    "images": [
+      "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=1200",
+      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200",
+      "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?w=1200",
+      "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1200"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=1200",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "organizer": "Pattaya Events Co., Ltd.",
+    "views": 1250,
+    "featured": true,
+    "status": "published",
+    "capacity": 5000,
+    "attendees": 1200,
+    "tags": ["music", "beach", "festival", "international", "EDM", "live-band"],
+    
+    "latitude": 12.9280,
+    "longitude": 100.8778,
+    
+    "ticketUrl": "https://www.ticketmaster.com/pattaya-beach-festival",
+    
+    "contactEmail": "info@pattayabeachfestival.com",
+    "contactPhone": "+66 38 123 4567",
+    "website": "https://www.pattayabeachfestival.com",
+    
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/PattayaBeachFestival",
+      "instagram": "https://www.instagram.com/pattayabeachfest",
+      "tiktok": "https://www.tiktok.com/@pattayabeachfest"
+    },
+    
+    "createdAt": "2025-10-01T00:00:00.000Z",
+    "updatedAt": "2025-10-16T09:09:14.000Z"
+  }
+}

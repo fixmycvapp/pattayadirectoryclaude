@@ -1,0 +1,31 @@
+# MongoDB
+MONGODB_URI=mongodb://localhost:27017/pattaya-directory
+
+# Server
+PORT=5000
+NODE_ENV=development
+
+# JWT
+JWT_SECRET=your-jwt-secret-key
+JWT_EXPIRE=30d
+
+# Email Configuration
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your-email@gmail.com
+SMTP_PASS=your-app-password
+SMTP_FROM=noreply@pattayadirectory.com
+SMTP_FROM_NAME=Pattaya Directory
+
+# News Fetcher (No API key needed for RSS)
+NEWS_FETCH_ENABLED=true
+NEWS_FETCH_INTERVAL=6 # hours
+
+# Frontend URL
+FRONTEND_URL=http://localhost:3000
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
+
+# Redis (for email queue)
+REDIS_HOST=localhost
+REDIS_PORT=6379
+REDIS_PASSWORD=

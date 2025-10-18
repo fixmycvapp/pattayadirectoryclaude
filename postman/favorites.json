@@ -1,0 +1,191 @@
+{
+  "info": {
+    "name": "Pattaya Directory - Favorites API",
+    "description": "Complete API collection for managing user favorites",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Profile",
+      "item": [
+        {
+          "name": "Get Current User",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/users/me",
+              "host": ["{{base_url}}"],
+              "path": ["users", "me"]
+            }
+          }
+        },
+        {
+          "name": "Get User Stats",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/users/stats",
+              "host": ["{{base_url}}"],
+              "path": ["users", "stats"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Favorites",
+      "item": [
+        {
+          "name": "Get All Favorites",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/users/favorites",
+              "host": ["{{base_url}}"],
+              "path": ["users", "favorites"]
+            }
+          }
+        },
+        {
+          "name": "Add to Favorites",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"eventId\": \"{{event_id}}\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/users/favorites",
+              "host": ["{{base_url}}"],
+              "path": ["users", "favorites"]
+            }
+          }
+        },
+        {
+          "name": "Check Favorite Status",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/users/favorites/{{event_id}}",
+              "host": ["{{base_url}}"],
+              "path": ["users", "favorites", "{{event_id}}"]
+            }
+          }
+        },
+        {
+          "name": "Remove from Favorites",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/users/favorites/{{event_id}}",
+              "host": ["{{base_url}}"],
+              "path": ["users", "favorites", "{{event_id}}"]
+            }
+          }
+        },
+        {
+          "name": "Clear All Favorites",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/users/favorites",
+              "host": ["{{base_url}}"],
+              "path": ["users", "favorites"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Interactions",
+      "item": [
+        {
+          "name": "Get Event Interactions",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/users/me/interactions/{{event_id}}",
+              "host": ["{{base_url}}"],
+              "path": ["users", "me", "interactions", "{{event_id}}"]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:5000/api"
+    },
+    {
+      "key": "jwt_token",
+      "value": "YOUR_JWT_TOKEN_HERE"
+    },
+    {
+      "key": "event_id",
+      "value": "67301a2f4b8c9d001e5f2a3b"
+    }
+  ]
+}

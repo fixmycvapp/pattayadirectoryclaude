@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "_id": "67301a2f4b8c9d001e5f2a3b",
+    "title": "Pattaya Beach Music Festival 2025",
+    "description": "Join us for the biggest beach music festival in Pattaya! Featuring international DJs, live bands, and beachfront performances.\n\nExperience world-class entertainment with stunning ocean views. This year's lineup includes Grammy-winning artists, local Thai performers, and electronic music pioneers.\n\nEvent Highlights:\n• 3 Main Stages with non-stop music\n• 50+ International & Local Artists\n• Beachfront Food & Beverage Pavilions\n• VIP Lounge with Premium Services\n• Fire Shows & Light Displays\n• After-party until 4 AM\n\nDon't miss the event of the year!",
+    "date": "2025-12-15T18:00:00.000Z",
+    "time": "18:00",
+    "location": "Beach Road Central Stage",
+    "address": "Beach Road, Central Pattaya, Chonburi 20150, Thailand",
+    "latitude": 12.928,
+    "longitude": 100.8778,
+    "type": "concert",
+    "price": 1500,
+    "priceCategory": "moderate",
+    "images": [
+      "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=1200",
+      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200",
+      "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?w=1200",
+      "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1200"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=1200",
+    "videoUrl": "https://www.youtube.com/embed/jfKfPfyJRdk",
+    "ticketUrl": "https://www.ticketmaster.com/pattaya-beach-festival",
+    "organizer": "Pattaya Events Co., Ltd.",
+    "contactEmail": "info@pattayabeachfestival.com",
+    "contactPhone": "+66 38 123 4567",
+    "website": "https://www.pattayabeachfestival.com",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/PattayaBeachFestival",
+      "instagram": "https://www.instagram.com/pattayabeachfest",
+      "twitter": null,
+      "tiktok": "https://www.tiktok.com/@pattayabeachfest",
+      "youtube": "https://www.youtube.com/pattayabeachfest"
+    },
+    "views": 1250,
+    "featured": true,
+    "status": "published",
+    "capacity": 5000,
+    "attendees": 1200,
+    "tags": [
+      "music",
+      "beach",
+      "festival",
+      "international",
+      "EDM",
+      "live-band"
+    ],
+    "highlights": [
+      "50+ International Artists",
+      "3 Main Stages",
+      "VIP Lounge Access",
+      "Beachfront Location",
+      "Fire Shows & Entertainment"
+    ],
+    "requirements": [
+      "Valid ID required",
+      "No outside food or drinks",
+      "Bags will be checked at entrance"
+    ],
+    "ageRestriction": "18+",
+    "dresscode": "Casual beach wear",
+    "createdBy": "67301a2e4b8c9d001e5f2a38",
+    "createdAt": "2025-10-16T09:16:22.000Z",
+    "updatedAt": "2025-10-16T09:16:22.000Z",
+    "id": "67301a2f4b8c9d001e5f2a3b"
+  }
+}

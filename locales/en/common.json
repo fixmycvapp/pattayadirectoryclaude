@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "home": "Home",
+    "events": "Events",
+    "accommodation": "Accommodation",
+    "nightlife": "Food & Nightlife",
+    "venues": "Venues",
+    "transport": "Transport",
+    "news": "News",
+    "dashboard": "Tourist Dashboard",
+    "profile": "Profile",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "submitEvent": "Add Your Event"
+  },
+  "hero": {
+    "title": "Discover Pattaya's Best Events",
+    "subtitle": "From beach parties to live music, find everything happening in Thailand's entertainment capital",
+    "browseEvents": "Browse All Events",
+    "exploreVenues": "Explore Venues"
+  },
+  "dashboard": {
+    "title": "Explore Pattaya Like a Local",
+    "subtitle": "Your personalized guide to the best hotels, food, nightlife, and local tips",
+    "yourLocation": "Your Location",
+    "useMyLocation": "Use My Location",
+    "detecting": "Detecting...",
+    "usingCurrentLocation": "Using Current Location",
+    "refresh": "Refresh",
+    "updated": "Updated"
+  },
+  "tabs": {
+    "stay": "Stay",
+    "eat": "Eat & Party",
+    "events": "Events",
+    "transport": "Getting Around",
+    "news": "What's New"
+  },
+  "accommodation": {
+    "title": "Accommodation in Pattaya",
+    "subtitle": "Find your perfect stay near the best events and attractions",
+    "search": "Search by name...",
+    "allLocations": "All Locations",
+    "allTypes": "All Types",
+    "allPrices": "All Prices",
+    "clearFilters": "Clear Filters",
+    "showing": "Showing",
+    "accommodations": "accommodations",
+    "noResults": "No accommodations found",
+    "tryAdjusting": "Try adjusting your filters",
+    "perNight": "/night",
+    "from": "From"
+  },
+  "nightlife": {
+    "title": "Food & Nightlife",
+    "subtitle": "Explore the best restaurants, bars, and clubs in Pattaya",
+    "all": "All",
+    "restaurants": "Restaurants",
+    "bars": "Bars & Clubs",
+    "cafes": "Cafes",
+    "allAreas": "All Areas",
+    "noVenues": "No venues found",
+    "tryDifferent": "Try different filters"
+  },
+  "events": {
+    "title": "Events in Pattaya",
+    "subtitle": "Discover exciting events and activities",
+    "upcoming": "Upcoming Events",
+    "today": "Today",
+    "thisWeekend": "This Weekend",
+    "thisWeek": "This Week",
+    "allDates": "All Dates",
+    "free": "Free",
+    "noEvents": "No events found",
+    "loadingEvents": "Loading events...",
+    "endOfResults": "You've reached the end of all events!"
+  },
+  "news": {
+    "title": "Local News",
+    "subtitle": "Stay updated with the latest news and updates from Pattaya",
+    "allNews": "All News",
+    "tourism": "Tourism",
+    "safety": "Safety",
+    "transport": "Transport",
+    "weather": "Weather",
+    "noArticles": "No news articles yet",
+    "checkBack": "Check back soon for updates"
+  },
+  "transport": {
+    "title": "Getting Around Pattaya",
+    "subtitle": "Complete guide to transportation options, routes, and tips",
+    "bahtBus": "Baht Bus (Songthaew)",
+    "motorbikeTaxi": "Motorbike Taxi",
+    "taxi": "Taxi & Grab",
+    "parking": "Parking Spots",
+    "proTips": "Pro Tips",
+    "routes": "Popular Routes",
+    "destinations": "Common Destinations",
+    "apps": "Recommended Apps"
+  },
+  "common": {
+    "viewDetails": "View Details",
+    "readMore": "Read More",
+    "bookNow": "Book Now",
+    "getDirections": "Get Directions",
+    "save": "Save",
+    "share": "Share",
+    "loading": "Loading...",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "close": "Close",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "next": "Next",
+    "previous": "Previous",
+    "showMore": "Show More",
+    "showLess": "Show Less"
+  },
+  "filters": {
+    "location": "Location",
+    "type": "Type",
+    "price": "Price",
+    "category": "Category",
+    "date": "Date",
+    "rating": "Rating"
+  },
+  "time": {
+    "morning": "Good Morning!",
+    "afternoon": "Afternoon Relaxation",
+    "evening": "Night Time!",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month"
+  },
+  "notifications": {
+    "enable": "Enable Notifications",
+    "enabled": "Notifications Enabled",
+    "disabled": "Notifications Disabled",
+    "permission": "Allow notifications to get updates about events near you",
+    "success": "Notifications enabled successfully!",
+    "error": "Failed to enable notifications"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "system": "System"
+  }
+}
